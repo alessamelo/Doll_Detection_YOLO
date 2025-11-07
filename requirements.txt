@@ -1,16 +1,13 @@
-# Core computer vision & ML libraries
+# Core object detection and ML dependencies
 ultralytics>=8.3.0
-opencv-python==4.10.0.84
 roboflow==1.2.11
 torch==2.5.1
 torchvision==0.20.1
 
-# Plotting and numerical computing
-matplotlib>=3.9.2
-numpy==1.26.4
+# Image and video processing
+opencv-python==4.10.0.84
 pillow<12,>=7.1.0
 
-# Jupyter & IPython support
-jupyterlab
-ipykernel
-notebook
+# Numerical and visualization utilities
+numpy==1.26.4
+matplotlib>=3.9.2
