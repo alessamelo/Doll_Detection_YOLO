@@ -1,0 +1,16 @@
+# Core computer vision & ML libraries
+ultralytics>=8.3.0
+opencv-python==4.10.0.84
+roboflow==1.2.11
+torch==2.5.1
+torchvision==0.20.1
+
+# Plotting and numerical computing
+matplotlib>=3.9.2
+numpy==1.26.4
+pillow<12,>=7.1.0
+
+# Jupyter & IPython support
+jupyterlab
+ipykernel
+notebook
